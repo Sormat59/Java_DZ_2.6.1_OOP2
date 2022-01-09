@@ -8,6 +8,10 @@ public class Post {
     private int id;
     private int ownerId;
     private int fromId;
+    private Likes likes;
+    private CommentsInfo commentsInfo;
+    private RepostsInfo repostsInfo;
+    private ViewsInfo viewsInfo;
 
 
 
